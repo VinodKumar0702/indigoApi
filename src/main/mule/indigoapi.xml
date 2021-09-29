@@ -124,7 +124,7 @@ output application/json
         </error-handler>
     </flow>
     <flow name="get:\indigo:indigoapi-config">
-		<logger level="INFO" doc:name="Logger" doc:id="34fa6835-0e75-4ca3-b61d-bc3c48889251" message="Request Sent....."/>
+		<logger level="INFO" doc:name="Logger" doc:id="34fa6835-0e75-4ca3-b61d-bc3c48889251" message="Request Sent to Indigo...."/>
 		<flow-ref doc:name="indigoImplementationFlow" doc:id="a56bf959-c66c-4e80-9614-66672f8d2531" name="indigoImplementationFlow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="1b41a718-b050-4616-8c40-b7ad08061ab6" message="Response Received.....#[payload]"/>
     </flow>
