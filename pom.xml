@@ -30,6 +30,18 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+						<cloudHubDeployment>
+						      <uri>https://anypoint.mulesoft.com</uri>
+						      <username>vilu-mule6</username>
+						      <password>Vilohit_123</password>
+						      <environment>DEV1</environment>
+						      <applicationName>indigoapi-cloud</applicationName>
+						      <muleVersion>4.3.0</muleVersion>
+						       <workers>${workers}</workers>
+						      <workerType>${workerType}</workerType>
+						      <region>${region}</region>
+						      <objectStoreV2>true</objectStoreV2>
+						    </cloudHubDeployment>
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
